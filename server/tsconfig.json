@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // File Output
+    "outDir": "dist",
+
+    // Module & Target (for ESM + Node.js support)
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+
+    // Module Compatibility
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Source Maps & Declaration
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Type Checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Optional: JSX (only used if you're using React in this project)
+    "jsx": "react-jsx",
+
+    // Performance & Compatibility
+    "skipLibCheck": true,
+
+    // Optional Enhancements (You can uncomment if needed)
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true
+  },
+  "include": ["**/*.ts"]
+}
